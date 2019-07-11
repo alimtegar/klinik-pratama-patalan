@@ -1,0 +1,494 @@
+/* Fonts */
+/* vietnamese */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Muli Regular'), local('Muli-Regular'), url('./fonts/Muli-Regular.ttf') format('truetype');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Muli Regular'), local('Muli-Regular'), url('./fonts/Muli-Regular.ttf') format('truetype');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Muli Regular'), local('Muli-Regular'), url('./fonts/Muli-Regular.ttf') format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Muli SemiBold'), local('Muli-SemiBold'), url('./fonts/Muli-SemiBold.ttf') format('truetype');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Muli SemiBold'), local('Muli-SemiBold'), url('./fonts/Muli-SemiBold.ttf') format('truetype');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Muli SemiBold'), local('Muli-SemiBold'), url('./fonts/Muli-SemiBold.ttf') format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Default */
+html, body {
+  font-family: 'Muli',  sans-serif;
+}
+
+body {
+  background-color: #fcfcfc;
+  background-image: url('./images/seamless-pattern-with-tools-for-medical-vector-23762177-10.png');
+  background-size: 33%;
+}
+
+a {
+  font-weight: bold;
+}
+
+a:focus,
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+ol li {
+  margin: 0.25rem 0;
+}
+
+ol li span {
+  margin-left: 0.25rem;
+}
+
+/* ------ Redifined Styles ------ */
+.small { font-size: 14px; }
+.x-small { font-size: 12px; }
+
+/* --- Bootstrap Datepicker --- */
+.datepicker table tr td, .datepicker table tr th {
+  font-size: 14px;
+  width: 32px;
+  height: 32px;
+}
+
+.datepicker table tr td.day:hover, .datepicker table tr td.focused,
+.datepicker .datepicker-switch:hover, .datepicker .prev:hover, .datepicker .next:hover, .datepicker tfoot tr th:hover,
+.datepicker table tr td span:hover, .datepicker table tr td span.focused {
+  background: rgba(0, 123, 255, 0.075);
+  color: #007bff;
+}
+
+.datepicker table tr td.active:active, .datepicker table tr td.active.highlighted:active, .datepicker table tr td.active.active, .datepicker table tr td.active.highlighted.active,
+.datepicker table tr td span.active:active, .datepicker table tr td span.active:hover:active, .datepicker table tr td span.active.disabled:active, .datepicker table tr td span.active.disabled:hover:active, .datepicker table tr td span.active.active, .datepicker table tr td span.active:hover.active, .datepicker table tr td span.active.disabled.active, .datepicker table tr td span.active.disabled:hover.active,
+.datepicker table tr td span.active:active:hover, .datepicker table tr td span.active:hover:active:hover, .datepicker table tr td span.active.disabled:active:hover, .datepicker table tr td span.active.disabled:hover:active:hover, .datepicker table tr td span.active.active:hover, .datepicker table tr td span.active:hover.active:hover, .datepicker table tr td span.active.disabled.active:hover, .datepicker table tr td span.active.disabled:hover.active:hover, .datepicker table tr td span.active:active:focus, .datepicker table tr td span.active:hover:active:focus, .datepicker table tr td span.active.disabled:active:focus, .datepicker table tr td span.active.disabled:hover:active:focus, .datepicker table tr td span.active.active:focus, .datepicker table tr td span.active:hover.active:focus, .datepicker table tr td span.active.disabled.active:focus, .datepicker table tr td span.active.disabled:hover.active:focus, .datepicker table tr td span.active:active.focus, .datepicker table tr td span.active:hover:active.focus, .datepicker table tr td span.active.disabled:active.focus, .datepicker table tr td span.active.disabled:hover:active.focus, .datepicker table tr td span.active.active.focus, .datepicker table tr td span.active:hover.active.focus, .datepicker table tr td span.active.disabled.active.focus, .datepicker table tr td span.active.disabled:hover.active.focus,
+.datepicker table tr td.active:active:hover, .datepicker table tr td.active.highlighted:active:hover, .datepicker table tr td.active.active:hover, .datepicker table tr td.active.highlighted.active:hover, .datepicker table tr td.active:active:focus, .datepicker table tr td.active.highlighted:active:focus, .datepicker table tr td.active.active:focus, .datepicker table tr td.active.highlighted.active:focus, .datepicker table tr td.active:active.focus, .datepicker table tr td.active.highlighted:active.focus, .datepicker table tr td.active.active.focus, .datepicker table tr td.active.highlighted.active.focus {
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+}
+
+ƒ
+.bootstrap-select > .dropdown-toggle,
+.bootstrap-select.show > .dropdown-toggle:not(:disabled):not(.disabled).active {
+  background: #fff !important;
+  font-weight: normal;
+  padding: 0.667rem 1rem;
+  border: 1px solid rgba(0,0,0,0.075) !important;
+  height: 46px;
+}
+
+.bootstrap-select .dropdown-menu {
+  margin: 0;
+  padding: 0;
+}
+
+.bootstrap-select .dropdown-menu .dropdown-item {
+  color: rgba(0,0,0,0.33);
+  font-weight: bold;
+  padding: 0.667rem 1rem;
+  margin: 0.25rem 0;
+}
+
+.bootstrap-select .dropdown-menu .dropdown-item:active,
+.bootstrap-select .dropdown-menu .dropdown-item:hover {
+  background: rgba(0, 123, 255, 0.075) !important;
+  color: #007BFF !important;
+}
+
+.bootstrap-select .dropdown-menu .dropdown-item.active,
+.bootstrap-select .dropdown-menu .dropdown-item.active:hover {
+  background: #007BFF !important;
+  color: #fff !important;
+}
+
+/* --- Form --- */
+.form-control {
+  /* background: rgba(0, 0, 0, 0.05); */
+  font-size: 15px;
+  height: 46px;
+  padding: 0.66rem 1rem;
+  border-color: rgba(0,0,0,0.075) !important;
+  border-radius: 0.25rem;
+}
+
+.form-control[readonly] {
+  background: #f8f9fa;
+  color: #6c757d!important;
+  border-color: #ececec !important; 
+}
+
+.form-control-sm {
+  height: 33px;
+}
+
+.input-group-append {
+  margin-left: 0;
+}
+
+.btn {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0.667rem 1rem;
+  border-radius: 0.25rem;
+  transition: 0s;
+}
+
+.btn:not(.btn-outline-primary) {
+  border: none;
+}
+
+.btn-link {
+  text-decoration: none !important;
+  color: rgba(0,0,0,0.33);
+}
+
+.btn-link:hover {
+  background: rgba(0, 123, 255, 0.075);
+  color: #007BFF;
+}
+
+.btn-link-danger:hover {
+  background: rgb(220, 53, 69, 0.075);
+  color: #dc3545;
+}
+
+.bg-primary .btn-link {
+  color: #fff;
+}
+
+.bg-primary .btn-link:hover {
+    background: rgba(0,0,0,0.075)
+}
+
+.form-control-sm,
+.btn-sm {
+  font-size: 14px;
+  padding: 0.33rem 0.5rem;
+}
+
+.input-group-append {
+  margin-right: -1px;
+  z-index: 1;
+}
+
+.input-group-text {
+  background: #f8f9fa;
+  color: #6c757d!important;
+  font-size: 15px;
+  border-color: #ececec; 
+}
+
+/* --- Table --- */
+.table thead th {
+  border: none;
+}
+
+.table td, .table th {
+  padding: 0.667rem;
+  border: none;
+}
+
+.table thead tr th {
+  vertical-align: middle;
+}
+
+.table thead tr th,
+.table tbody tr td {
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.table tbody tr {
+  box-shadow: 0 0 0 1px #ececec;
+}
+
+.table tbody tr.divider {
+  box-shadow: none;
+}
+
+.table tbody tr:not(.divider):hover {
+  box-shadow: 0 0 0 2px #007BFF;
+}
+
+.table tbody tr.divider td {
+  padding: 0.25rem;
+}
+
+/* --- Border --- */
+.border,
+.border-top,
+.border-bottom,
+.border-left,
+.border-right {
+  border-color: rgba(0,0,0,0.075) !important;
+}
+
+/* Rounded */
+.rounded-1 { border-radius: 1rem !important; }
+.rounded-top-1 { border-top-left-radius: 1rem !important; border-top-right-radius: 1rem !important; }
+.rounded-bottom-1 { border-bottom-left-radius: 1rem !important; border-bottom-right-radius: 1rem !important; }
+.rounded-2 { border-radius: 0.5rem !important; }
+.rounded-top-2 { border-top-left-radius: 0.5rem !important; border-top-right-radius: 0.5rem !important; }
+.rounded-bottom-2 { border-bottom-left-radius: 0.5rem !important; border-bottom-right-radius: 0.5rem !important; }
+.rounded-3 { border-radius: 0.25rem !important; }
+.rounded-top-3 { border-top-left-radius: 0.25rem !important; border-top-right-radius: 0.25rem !important; }
+.rounded-bottom-3 { border-bottom-left-radius: 0.25rem !important; border-bottom-right-radius: 0.25rem !important; }
+
+/* --- Shadow --- */
+.shadow-sm {
+  box-shadow: 0 3px 3px -3px rgba(0,0,0,0.15) !important;
+}
+
+/* ------ Custom Styles ------ */
+pre.debugger {
+  position: absolute;
+  left: 50%;
+  z-index: 999;
+  background: #000;
+  padding: 8px;
+  color: #fff;
+  font-size: 12px;
+  transform: translateX(-50%);
+}
+
+/* Spacing */
+.m-min-1 { margin: -0.25rem; }
+.my-min-1 { margin-top: -0.25rem; margin-bottom: -0.25rem; }
+.mx-min-1 { margin-left: -0.25rem; margin-right: -0.25rem; }
+.mt-min-1 { margin-top: -0.25rem; }
+.mb-min-1 { margin-bottom: -0.25rem; }
+.ml-min-1 { margin-left: -0.25rem; }
+.mr-min-1 { margin-right: -0.25rem; }
+.m-min-2 { margin: -0.5rem; }
+.my-min-2 { margin-top: -0.5rem; margin-bottom: -0.5rem; }
+.mx-min-2 { margin-left: -0.5rem; margin-right: -0.5rem; }
+.mt-min-2 { margin-top: -0.5rem; }
+.mb-min-2 { margin-bottom: -0.5rem; }
+.ml-min-2 { margin-left: -0.5rem; }
+.mr-min-2 { margin-right: -0.5rem; }
+.m-min-3 { margin: -1rem; }
+.my-min-3 { margin-top: -1rem; margin-bottom: -1rem; }
+.mx-min-3 { margin-left: -1rem; margin-right: -1rem }
+.mt-min-3 { margin-top: -1rem; }
+.mb-min-3 { margin-bottom: -1rem; }
+.ml-min-3 { margin-left: -1rem; }
+.mr-min-3 { margin-right: -1rem; }
+.m-min-4 { margin: -1.5rem; }
+.my-min-4 { margin-top: -1.5rem; margin-bottom: -1.5rem; }
+.mx-min-4 { margin-left: -1.5rem; margin-right: -1.5rem; }
+.mt-min-4 { margin-top: -1.5rem; }
+.mb-min-4 { margin-bottom: -1.5rem; }
+.ml-min-4 { margin-left: -1.5rem; }
+.mr-min-4 { margin-right: -1.5rem; }
+.m-min-5 { margin: -3rem; }
+.my-min-5 { margin-top: -3rem; margin-bottom: -3rem; }
+.mx-min-5 { margin-left: -3rem; margin-right: -3rem; }
+.mt-min-5 { margin-top: -3rem; }
+.mb-min-5 { margin-bottom: -3rem; }
+.ml-min-5 { margin-left: -3rem; }
+.mr-min-5 { margin-right: -3rem; }
+
+/* --- Positioning --- */
+.x-plus-1 { transform: translateX(1px); }
+.x-min-1 { transform: translateX(-1px); }
+.x-plus-2 { transform: translateX(2px); }
+.x-min-2 { transform: translateX(-2px); }
+.y-plus-1 { transform: translateY(-1px); }
+.y-min-1 { transform: translateY(1px); }
+.y-plus-2 { transform: translateY(-2px); }
+.y-min-2 { transform: translateY(2px); }
+.z-plus-1 { z-index: 1; }
+
+/* -- Square --- */
+.square {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 46px;
+  padding: 0 !important;
+}
+
+.square-sm {
+  width: 33px;
+  height: 33px;
+}
+
+.square-lg {
+  width: 60px;
+  height: 60px;
+}
+
+/* --- Button --- */
+.btn-float {
+  position: absolute;
+  bottom: 0;
+  right: 3rem;
+  transform: translateY(50%);
+}
+
+/* --- Pagination --- */
+.pagination .nav-item .nav-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 33px;
+  height: 33px;
+  color: rgba(0,0,0,0.33);
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0.25rem;
+  padding: 0;
+  border-radius: 0.25rem;
+}
+
+.pagination .nav-item .nav-link:hover {
+  background: rgba(0, 123, 255, 0.075);
+  color: #007BFF;
+}
+
+.pagination .nav-item .nav-link.active {
+  background: #007BFF;
+  color: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.075);
+}
+
+/* --- Search --- */
+.search .form-control {
+  background: #fff;
+  border: none;
+}
+
+.search .btn {
+  background: #fff;
+  color: rgba(0,0,0,0.33);
+}
+
+.search .input-group-prepend .input-group-text {
+  color: rgba(0,0,0,0.33);
+}
+
+/* ------ Loader ------ */
+#loader {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* ------ Main ------ */
+#main {
+  height: calc(100vh - 62px);
+}
+
+/* ------ Navbar ------ */
+#navbar .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  padding: 0.667rem 1rem;
+  border-radius: 0.25rem;
+}
+
+#navbar .navbar-nav .nav-item .nav-link:hover {
+  background: rgba(0,0,0,0.075);
+}
+
+#navbar .navbar-nav .dropdown .more.dropdown-toggle {
+  cursor: pointer;
+}
+
+#navbar .navbar-nav .dropdown .more.dropdown-toggle::after {
+  display: none;
+}
+
+#navbar .navbar-nav .dropdown .more.dropdown-toggle .dropdown-menu {
+  display: initial;
+  left: unset;
+  right: 0;
+}
+
+#navbar .navbar-nav .dropdown .more.dropdown-toggle .dropdown-menu .dropdown-item {
+  color: rgba(0,0,0,0.33);
+  font-weight: bold;
+  padding: 0.667rem 1rem;
+  transition: 0s;
+}
+
+#navbar .navbar-nav .dropdown .more.dropdown-toggle .dropdown-menu .dropdown-item:hover {
+  background: rgba(0, 123, 255, 0.075) !important;
+  color: #007BFF;
+}
+
+#navbar .navbar-nav .dropdown .more.dropdown-toggle .dropdown-menu .dropdown-item.active {
+  background: #fff;
+}
+
+/* ------ Sidebar ------ */
+#sidebar .nav .nav-item .nav-link {
+  position: relative;
+  color: rgba(0,0,0,0.33);
+  font-weight: bold;
+  padding: 0.667rem 1rem;
+  border-radius: 0.25rem;
+  transition: 0s;
+}
+
+#sidebar .nav .nav-item .nav-link:hover {
+  background: rgba(0, 123, 255, 0.075);
+  color: #007BFF;
+}
+
+#sidebar .nav .nav-item .nav-link.active {
+  color: #fff;
+  background: #007BFF;
+}
+
+/* --------- Admin Area ---------  */
+/* Dashboard */
+#dashboard .dashboard-body .dashboard-pages .dashboard-pages-item {
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.075);
+}
+
+#dashboard .dashboard-body .dashboard-pages .dashboard-pages-item:hover {
+  box-shadow: 0 0 0 2px #007BFF;
+}
